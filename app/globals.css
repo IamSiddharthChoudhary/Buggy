@@ -19,8 +19,20 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "Orbitron";
+  src: url("/fonts/Orbitron-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+}
+
 .fancy {
   font-family: "Pacifico-Regular", sans-serif;
+}
+
+.logo {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 800;
 }
 
 @theme inline {
@@ -44,7 +56,8 @@ body {
 }
 
 .gradient-bg {
-  background: radial-gradient(
+  background:
+    radial-gradient(
       circle at 20% 50%,
       rgba(16, 185, 129, 0.15) 0%,
       transparent 50%
@@ -68,15 +81,30 @@ body {
 
   min-height: 100vh;
 
-  background-size: 200% 200%, 200% 200%, 200% 200%, 200% 200%, 100% 100%;
+  background-size:
+    200% 200%,
+    200% 200%,
+    200% 200%,
+    200% 200%,
+    100% 100%;
 
-  background-position: 0% 0%, 100% 0%, 0% 100%, 100% 100%, 0% 0%;
+  background-position:
+    0% 0%,
+    100% 0%,
+    0% 100%,
+    100% 100%,
+    0% 0%;
 
   animation: move 3s cubic-bezier(0.4, 0, 0.6, 1) infinite alternate;
 }
 
 @keyframes move {
   to {
-    background-position: 100% 100%, 0% 100%, 100% 0%, 0% 0%, 0% 0%;
+    background-position:
+      100% 100%,
+      0% 100%,
+      100% 0%,
+      0% 0%,
+      0% 0%;
   }
 }

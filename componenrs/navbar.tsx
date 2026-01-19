@@ -83,7 +83,12 @@ export default function Navbar() {
 
           <button
             onClick={() => rtr.push("/")}
-            className="flex items-center gap-2 absolute left-1/2 -translate-x-1/2 hover:scale-105 transition-transform"
+            className="logo absolute left-1/2 -translate-x-1/2 flex items-center gap-2 
+             text-3xl md:text-4xl tracking-tight
+             bg-gradient-to-r from-green-400 to-blue-500
+             bg-clip-text text-transparent
+             hover:scale-105 transition-all
+             drop-shadow-[0_0_12px_rgba(34,197,94,0.35)]"
           >
             Buggy
           </button>

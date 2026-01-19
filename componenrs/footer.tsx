@@ -11,8 +11,9 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8">
           <div>
             <div className="flex items-center gap-2 mb-4">
-              <Shield className="w-8 h-8 text-green-500" />
-              <span className="text-xl font-bold">ApniSec</span>
+              <span className="bg-linear-to-r from-green-400 to-blue-500 bg-clip-text text-transparent logo text-xl font-bold">
+                Buggy
+              </span>
             </div>
             <p className="text-sm text-muted-foreground mb-4">
               Enterprise-grade security platform for identifying and managing
@@ -20,13 +21,13 @@ export default function Footer() {
             </p>
             <div className="flex gap-3">
               <a
-                href="https://www.linkedin.com/company/apnisec/"
+                href="https://www.linkedin.com/"
                 className="p-2 rounded-lg bg-green-500/10 text-green-500 hover:bg-green-500/20 transition"
               >
                 <Linkedin className="w-5 h-5" />
               </a>
               <a
-                href="https://x.com/apnisec/"
+                href="https://x.com/"
                 className="p-2 rounded-lg bg-green-500/10 text-green-500 hover:bg-green-500/20 transition"
               >
                 <Twitter className="w-5 h-5" />
@@ -97,14 +98,14 @@ export default function Footer() {
             <ul className="space-y-3 text-sm text-muted-foreground">
               <li className="flex items-start gap-2">
                 <Mail className="w-4 h-4 mt-0.5 text-green-500" />
-                <span>contact@apnisec.com</span>
+                <span>csiddharth380@gmail.com</span>
               </li>
               <li className="flex items-start gap-2">
                 <MapPin className="w-4 h-4 mt-0.5 text-green-500" />
                 <span>
-                  Enterprise Security Solutions
+                  Over the
                   <br />
-                  Global Presence
+                  Clouds
                 </span>
               </li>
             </ul>
