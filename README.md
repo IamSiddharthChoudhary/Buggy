@@ -2,7 +2,7 @@
 
 A full-stack security vulnerability management platform built with Next.js, featuring JWT authentication, issue tracking, and role-based access control.
 
-**Live Demo:** [https://apni-sec-siddharth.vercel.app/](https://apni-sec-siddharth.vercel.app/)
+**Live Demo:** [https://buggy-sec.vercel.app//](https://buggy-sec.vercel.app/)
 
 ![Lighthouse Performance Scores](image-1.png)
 
