@@ -6,6 +6,7 @@ import {
   ScrollView,
   ActivityIndicator,
   TouchableOpacity,
+  Alert,
 } from "react-native";
 import { issues } from "@/services/api";
 import { Ionicons } from "@expo/vector-icons";
@@ -23,14 +24,16 @@ export default function IssuesScreen() {
   const fetchIssues = async () => {
     try {
       const res = await issues.getAll();
+      console.log("API Response:", res.data);
       setIssuesData(res.data.posts || []);
-    } catch (err) {
-      console.error("Failed to fetch");
+    } catch (err: any) {
+      console.error("Fetch Error:", err.response?.data || err.message);
+      Alert.alert("Error", "Failed to fetch issues");
+      setIssuesData([]);
     } finally {
       setLd(false);
     }
   };
-
   const stats = {
     total: issuesData.length,
     open: issuesData.filter((i) => i.status === "open").length,
