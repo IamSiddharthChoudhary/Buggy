@@ -1,4 +1,4 @@
-# ApniSec
+# Buggy
 
 A full-stack security vulnerability management platform built with Next.js, featuring JWT authentication, issue tracking, and role-based access control.
 
@@ -8,7 +8,7 @@ A full-stack security vulnerability management platform built with Next.js, feat
 
 ## Overview
 
-ApniSec is a security platform that allows users to report and track vulnerabilities across three categories: Cloud Security, VAPT (Vulnerability Assessment and Penetration Testing), and Reteam Assessment. The application implements a secure REST API with proper authentication, rate limiting, and follows object-oriented programming principles.
+Buggy is a security platform that allows users to report and track vulnerabilities across three categories: Cloud Security, VAPT (Vulnerability Assessment and Penetration Testing), and Reteam Assessment. The application implements a secure REST API with proper authentication, rate limiting, and follows object-oriented programming principles.
 
 ## Tech Stack
 
@@ -119,8 +119,8 @@ The backend follows object-oriented principles with these main classes:
 1. Clone the repository
 
 ```bash
-git clone https://github.com/yourusername/apnisec.git
-cd apnisec
+git clone https://github.com/yourusername/Buggy.git
+cd Buggy
 ```
 
 2. Install dependencies
