@@ -4,9 +4,9 @@ A full-stack security vulnerability management platform built with Next.js, feat
 
 **Live Demo:** [https://buggy-sec.vercel.app//](https://buggy-sec.vercel.app/)
 
-For mobile app check the /mobile-app directory. Although its still under developement, but still the minimal UI is working.
+For mobile app check the [/mobile-app](https://github.com/IamSiddharthChoudhary/Buggy/tree/master/mobile-app) directory. Although its still under developement, but still the minimal UI is working.
 
-Also please check the ./IMPLEMENTATION.md, to know how the project has been built.
+Also please check the [./IMPLEMENTATION.md](https://github.com/IamSiddharthChoudhary/Buggy/blob/master/IMPLEMENTATION.md), to know how the project has been built.
 
 ![Lighthouse Performance Scores](image-1.png)
 

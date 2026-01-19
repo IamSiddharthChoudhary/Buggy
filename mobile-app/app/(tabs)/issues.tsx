@@ -8,7 +8,7 @@ import {
   TouchableOpacity,
   Alert,
 } from "react-native";
-import { issues } from "@/services/api";
+import { issues } from "../../services/api";
 import { Ionicons } from "@expo/vector-icons";
 
 export default function IssuesScreen() {

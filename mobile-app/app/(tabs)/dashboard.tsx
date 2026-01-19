@@ -11,7 +11,7 @@ import {
 } from "react-native";
 import { useRouter } from "expo-router";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { issues } from "@/services/api";
+import { issues } from "../../services/api";
 import { Ionicons } from "@expo/vector-icons";
 
 export default function DashboardScreen() {

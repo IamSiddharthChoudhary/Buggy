@@ -9,7 +9,7 @@ import {
 } from "react-native";
 import { useRouter } from "expo-router";
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import { auth } from "@/services/api";
+import { auth } from "../../services/api";
 import { Ionicons } from "@expo/vector-icons";
 
 export default function LoginScreen() {
